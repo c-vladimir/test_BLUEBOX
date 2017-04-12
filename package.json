@@ -1,0 +1,61 @@
+{
+  "name": "fabium",
+  "version": "1.7.1",
+  "description": "front-end boilerplate for fast project start",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^6.3.7",
+    "babel-core": "^6.10.4",
+    "babel-preset-es2015": "^6.9.0",
+    "bower": "^1.7.9",
+    "browser-sync": "^2.13.0",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-babel": "^6.1.2",
+    "gulp-bower": "0.0.10",
+    "gulp-csso": "^2.0.0",
+    "gulp-filter": "^4.0.0",
+    "gulp-if": "^2.0.1",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-jade-inheritance": "^0.5.5",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-postcss": "^6.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-rtlcss": "^1.0.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-ssh": "^0.5.6",
+    "gulp-stylus": "^2.5.0",
+    "gulp-uglify": "^1.5.4",
+    "gulp-util": "^3.0.6",
+    "gulp-w3cjs": "^1.2.0",
+    "gulp-zip": "^3.2.0",
+    "gulp.spritesmith": "^6.2.1",
+    "jade": "^1.11.0",
+    "merge-stream": "^1.0.0"
+  },
+  "scripts": {
+    "gulp": "./node_modules/.bin/gulp",
+    "start": "gulp dev",
+    "prod": "gulp production",
+    "deploy": "gulp deploy",
+    "validate": "gulp validate",
+    "minify": "gulp minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Krekotun/fabium.git"
+  },
+  "keywords": [
+    "front-end",
+    "gulp",
+    "boilerplate"
+  ],
+  "author": "Krekotun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Krekotun/fabium/issues"
+  },
+  "homepage": "https://github.com/Krekotun/fabium"
+}

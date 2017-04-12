@@ -1,0 +1,38 @@
+html
+body,
+	height: 100%
+
+body
+	font-family: $ff_base
+	font-size: 15px
+	line-height: 1.4
+	color: $text
+
+body,
+input,
+button,
+textarea
+	font-family: $ff_base
+
+input,
+button,
+textarea
+	+reset-input()
+
+button
+	cursor: pointer
+	&::-moz-focus-inner
+	&::-moz-focus-inner
+		border: 0
+		padding: 0
+
+a
+	text-decoration: none
+
+em
+i
+	font-style: italic
+
+b
+strong
+	font-weight: bold

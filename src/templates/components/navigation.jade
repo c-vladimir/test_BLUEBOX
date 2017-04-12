@@ -1,0 +1,5 @@
+mixin navigation(links)
+	ul.navigation&attributes(attributes)
+		each item in links
+			li.navigation__item
+				a.navigation__link(href=item.url)= item.text

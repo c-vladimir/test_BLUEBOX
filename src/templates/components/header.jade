@@ -1,0 +1,19 @@
+include ./navigation
+
+header.header
+	.section
+		.row
+			.col.col-xs-3.flex-xs-middle
+				include ./logo
+				
+			.col.col-xs-7.flex-xs-middle
+				+navigation([
+					{url: '#', text: 'About'},
+					{url: '#', text: 'Services'},
+					{url: '#', text: 'Works'},
+					{url: '#', text: 'Blog '},
+					{url: '#', text: 'Contact Us'}
+					])
+			
+			.col.col-xs-2.flex-xs-middle
+				include ./search

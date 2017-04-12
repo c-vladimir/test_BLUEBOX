@@ -1,0 +1,80 @@
+.navigation
+	position: relative
+	text-align: right
+	margin: auto
+
+	&__item
+		display: inline-block
+		position: relative
+		padding: 0 18px
+
+		&:first-child
+			padding-left: 0
+
+		&:last-child
+			padding-right: 0
+
+		&:before
+			display: block
+			position: absolute
+			content: ''
+			height: 100%
+			width: 1px
+			color: #000
+			right: 0
+			top: 0
+			z-index: 1000
+			opacity: 1
+			visibility: visible
+
+	&__link
+		display: block
+		color: $text
+		text-transform: uppercase
+		font-size: 15px
+
+		&:hover
+			text-decoration: none
+			color: $link
+
+	&.-footer
+		text-align: left
+
+	&.-footer &
+		&__link
+			display: block
+			color: #e2e7ed
+			text-transform: none
+			font-size: 15px
+
+			&:hover
+				text-decoration: none
+				color: $link
+
+		&__item
+			display: inline-block
+			position: relative
+			padding: 0 10px
+
+			&:first-child
+				padding-left: 0
+
+			&:last-child
+				padding-right: 0
+				
+			&:before
+				display: block
+				position: absolute
+				content: ''
+				height: 100%
+				width: 1px
+				color: #fff
+				right: 0
+				top: 0
+				z-index: 1000
+				opacity: 1
+				visibility: visible
+
+		&:hover
+				text-decoration: none
+				color: $link

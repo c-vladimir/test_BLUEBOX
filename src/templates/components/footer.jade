@@ -1,0 +1,18 @@
+include ./navigation
+
+footer.footer
+	.section
+		.row
+			.col.col-xs-6
+				+navigation([
+					{url: '#', text: 'Home'},
+					{url: '#', text: 'About'},
+					{url: '#', text: 'Services'},
+					{url: '#', text: 'Works'},
+					{url: '#', text: 'Blog '},
+					{url: '#', text: 'Contact Us'}
+					])(class='-footer')
+				include ./copyright
+			
+			.col.col-xs-6
+				include ./icon_social
