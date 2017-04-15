@@ -1,0 +1,84 @@
++responsive('max-width: 1024px')
+	.promo_slider
+		&--slide_content
+			h2
+				font-size: 40px
+
++responsive('max-width: 980px')
+	.promo_slider
+
+		&--slide
+			padding: 170px 0 0
+
+		&--slide_simple
+			max-width: 500px
+			max-height: 286px
+
+		&--slide_content
+			&:before
+				height: 38px
+
+			h2
+				font-size: 30px
+				margin: 59px 0 0 53px
+				display: inline-block
+
+			.button
+				color: #fff
+				padding: 10px 37px
+				background: $blue
+				border-radius: 5px
+				margin-left: 25px
+
+				span
+					font-size: 22px
+
++responsive('max-width: 780px')
+	.promo_slider
+
+		&--slide
+			padding: 150px 0 0
+
+		&--slide_simple
+			max-width: 500px
+			max-height: 286px
+
+		&--slide_content
+			h2
+				font-size: 28px
+				margin: 59px 0 0 53px
+				display: inline-block
+
+			.button
+				color: #fff
+				padding: 8px 30px
+				background: $blue
+				border-radius: 5px
+				margin-left: 28px
+
+				span
+					font-size: 18px
+
++responsive('max-width: 680px')
+	.promo_slider
+
+		&--slide
+			padding: 120px 0 0
+
+		&--slide_simple
+			max-width: 350px
+			max-height: 200px
+
+		&--slide_content
+			text-align: center
+
+			&:before
+				height: 28px
+
+			h2
+				font-size: 28px
+				margin: 59px auto
+				display: inline-block
+
+			.button
+				display: none

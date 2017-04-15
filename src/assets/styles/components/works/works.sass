@@ -38,11 +38,12 @@
 		visibility: hidden
 		opacity: 0
 		transition: opacity .2s linear
-		padding: 15px 0 15px 18px
+		padding: 9px 0 15px 18px
 
 	&__filter-content
 		display: block
 		color: #fff
+		font-family: $ff_base
 
 		dt
 			font-size: 24px
@@ -50,3 +51,17 @@
 
 		dd
 			line-height: 26px
+
+	&__link
+		position: absolute
+		max-width: 70px
+		max-height: 40px
+		right: 0
+		bottom: 0
+
+		&.-view
+			left: 0
+			bottom: 0
+
+		&:hover
+			background: #008bcc

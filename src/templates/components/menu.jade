@@ -1,0 +1,17 @@
+include ./navigation
+
+.menu
+	.open_menu
+		.open_menu__box
+			.open_menu__container
+				.open_menu__header 
+					include ./logo
+
+				+navigation([
+					{url: '#', text: 'Home'},
+					{url: '#', text: 'About'},
+					{url: '#services', text: 'Services'},
+					{url: '#works', text: 'Works'},
+					{url: '#', text: 'Blog '},
+					{url: '#', text: 'Contact Us'}
+					])(class='-menu')

@@ -1,0 +1,63 @@
+.promo_slider
+	&
+		width: 100%
+		&--slides
+			.slick-slide
+					min-height: 589px
+
+		&--slide
+			-webkit-backface-visibility: hidden
+			transform: translateZ(0) scale(1.0, 1.0)
+			position: relative
+			padding: 202px 0 0
+
+
+		&--slide_simple
+			-webkit-backface-visibility: hidden
+			transform: translateZ(0) scale(1.0, 1.0)
+			position: relative
+			width: 100%
+			margin: 0 auto
+			max-width: 700px
+			max-height: 400px
+			z-index: 100
+
+			img
+				overflow: hidden
+				vertical-align: top
+
+		&--slide_content
+			position: absolute
+			left: 0
+			top: 0
+			width: 100%
+			height: 100%
+			color: #fff
+
+			h2
+				font-size: 45px
+				font-weight: normal
+				margin: 59px 0 0 53px
+				font-family: $ff_base
+				display: inline-block
+
+			&:before
+				position: absolute
+				content: ''
+				display: block
+				width: 100%
+				height: 53px
+				background: #fff
+				bottom: 0
+				left: 0
+				margin-bottom: -1px
+
+			.button
+				color: #fff
+				padding: 13px 53px
+				background: $blue
+				border-radius: 5px
+				margin-left: 48px
+
+				span
+					font-size: 22px

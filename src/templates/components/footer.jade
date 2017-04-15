@@ -2,17 +2,17 @@ include ./navigation
 
 footer.footer
 	.section
-		.row
-			.col.col-xs-6
+		.row.flex-items-xs-center
+			.col.col-lg-6.col-md-7.col-sm-12.col-xs-12
 				+navigation([
 					{url: '#', text: 'Home'},
 					{url: '#', text: 'About'},
-					{url: '#', text: 'Services'},
-					{url: '#', text: 'Works'},
+					{url: '#services', text: 'Services'},
+					{url: '#works', text: 'Works'},
 					{url: '#', text: 'Blog '},
 					{url: '#', text: 'Contact Us'}
 					])(class='-footer')
 				include ./copyright
 			
-			.col.col-xs-6
+			.col.col-lg-6.col-md-5.col-sm-12.col-xs-12.flex-xs-first.flex-lg-last.flex-md-last.flex-sm-first 
 				include ./icon_social
