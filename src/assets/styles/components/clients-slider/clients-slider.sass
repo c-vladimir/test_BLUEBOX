@@ -1,6 +1,46 @@
 .clients-slider
 	position: relative
-	
 
-	&__slide
-		width: 25%
+	.slick-next
+		margin-right: -20px
+		width: 24px
+		height: 40px
+		background-image: url('../images/arrow/next.png')
+		background-size: cover
+		opacity: .3
+
+		&:before
+			display: none
+
+		&:hover
+			outline: none
+			background-image: url('../images/arrow/next.png')
+			background-size: cover
+		&:focus
+			outline: none
+			background-image: url('../images/arrow/next.png')
+			background-size: cover
+
+
+	.slick-prev
+		margin-left: -20px
+		width: 24px
+		height: 40px
+		background-image: url('../images/arrow/prev.png')
+		background-size: cover
+		z-index: 1
+		opacity: .3
+
+		&:before
+			display: none
+
+		&:hover
+			background-size: cover
+			background-image: url('../images/arrow/prev.png')
+		&:focus
+			outline: none
+			background-image: url('../images/arrow/prev.png')
+			background-size: cover
+
+	.slick-dots
+		display: none!important

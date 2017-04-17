@@ -33,11 +33,12 @@
 			width: 100%
 			height: 100%
 			color: #fff
+			text-align: center
 
 			h2
 				font-size: 45px
 				font-weight: normal
-				margin: 59px 0 0 53px
+				margin: 59px 0 0
 				font-family: $ff_base
 				display: inline-block
 
@@ -61,3 +62,39 @@
 
 				span
 					font-size: 22px
+
+	.slick-next
+		margin-right: 20%
+		width: 30px
+		height: 50px
+		background-image: url('../images/arrow/next.png')
+		background-size: cover
+
+		&:before
+			display: none
+
+		&:hover
+			outline: none
+			background-image: url('../images/arrow/next.png')
+		&:focus
+			outline: none
+			background-image: url('../images/arrow/next.png')
+
+
+	.slick-prev
+		margin-left: 20%
+		width: 30px
+		height: 50px
+		background-image: url('../images/arrow/prev.png')
+		background-size: cover
+		z-index: 1
+
+		&:before
+			display: none
+
+		&:hover
+			outline: none
+			background-image: url('../images/arrow/prev.png')
+		&:focus
+			outline: none
+			background-image: url('../images/arrow/prev.png')
